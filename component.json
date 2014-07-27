@@ -1,16 +1,19 @@
 {
+  "logo": "comScore",
   "name": "comscore",
-  "version": "0.0.1",
   "repo": "logo/comscore",
-  "images": [
-    "images/logo-monochromatic.svg",
-    "images/logo.svg"
-  ],
+  "description": "The comScore logo.",
+  "version": "0.0.2",
+  "license": "MIT",
   "styles": [
     "index.css"
   ],
-  "development": {
+  "images": [
+    "images/logo.svg",
+    "images/logo-black.svg",
+    "images/logo-white.svg"
+  ],
+  "dependencies": {
     "logo/logo": "*"
-  },
-  "license": "MIT"
+  }
 }
